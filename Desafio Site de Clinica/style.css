@@ -1,0 +1,66 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(43, 255, 107);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(43, 255, 107);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: white;
+    min-height: 150px;
+}
+
+
+/* Tabela de Horários */
+table{
+    border: solid 1px black;
+    -webkit-box-shadow: 14px 10px 16px 0px rgba(0,0,0,0.44);
+    -moz-box-shadow: 14px 10px 16px 0px rgba(0,0,0,0.44);
+    box-shadow: 14px 10px 16px 0px rgba(0,0,0,0.44);
+}
+
+table tfoot th{
+    background-color: rgb(66, 66, 66);
+    color: black;
+}
+
+table tbody tr:nth-child(even) td{
+    background-color: rgb(214, 214, 214);
+}
+
+table thead th{
+    background-color: black;
+    color: white;
+}
+
+table tbody tr:hover td{
+    background-color: #616161;
+    cursor: pointer;
+}
